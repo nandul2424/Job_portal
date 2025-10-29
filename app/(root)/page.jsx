@@ -13,10 +13,10 @@ const topJobs = [
 
 const jobCategories = ["Engineering", "Design", "Marketing", "Sales", "Product"];
 
-const successStories = [
-  { id: 1, name: "Alice Smith", story: "Landed her dream job in 2 weeks!", img: "/success1.jpg" },
-  { id: 2, name: "John Doe", story: "Started remote work with top companies.", img: "/success2.jpg" },
-];
+// const successStories = [
+//   { id: 1, name: "Alice Smith", story: "Landed her dream job in 2 weeks!", img: "/success1.jpg" },
+//   { id: 2, name: "John Doe", story: "Started remote work with top companies.", img: "/success2.jpg" },
+// ];
 
 export default function Dashboard() {
   const [searchQuery, setSearchQuery] = useState("");
