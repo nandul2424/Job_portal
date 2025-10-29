@@ -29,6 +29,8 @@ export default function RootLayout({ children }) {
               <Link href="#" className="text-gray-600 hover:text-primary transition">
                 Privacy
               </Link>
+
+                <div></div>
             </div>
           </div>
         </footer>
