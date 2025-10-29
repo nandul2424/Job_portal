@@ -1,4 +1,6 @@
 @import "tailwindcss";
+@import "tailwindcss/preflight"; /* browser reset */
+@tailwind utilities; /* all utilities including custom classes from config */
 
 :root {
   --background: #ffffff;
